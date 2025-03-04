@@ -41,8 +41,13 @@ git clone https://github.com/ViniciusJun/Atividades-em-Java-IFRS.git
             - verificaFaixa.java
             - verificaTriângulo.java
         /modulo2
-            - atividade1.java
-            - atividade2.java
+            - calculosNumericos.java
+            - consumoMedioCarro.java
+            - faturamentoArmazem.java
+            - mediasIdades.java
+            - quadradosDe15a200.java
+            - quadradosNumericos.java
+            - somaDeNumeros.java
         - Caderno de Exercícios - Módulo 1 - JavaII.pdf
         - Caderno de Exercícios - Módulo 2 - JavaII.pdf
     /Projetos
