@@ -12,15 +12,40 @@ A organização do repositório segue a estrutura abaixo:
 
 ```
 git clone https://github.com/ViniciusJun/Atividades-em-Java-IFRS.git
-/atividades
+/Java_I
+    - AreaQuadrado.java
+    - ÁreaTriângulo.java
+    - CalculadoraHorasTrabalhadas.java
+    - CalculadorNotas.java
+    - CalculadoraDesconto10.java
+    - CalculadoraIdade.java
+    - CalculadoraRedeEletrica.java
+    - CalculadoraSalarioComissao.java
+    - CalculadoraSalarios.java
+    - CalculoMedidas.java
+    - CelsosParaFahrenheit.java
+    - DivisaoDoisNumeros.java
+    - MediaTresNotas.java
+    - SubtracaoDoisNumeros.java
+
+ValorCarro.java
+/Java_II
     /modulo1
-        - atividade1.java
-        - atividade2.java
+        - calculoDelta.java
+        - diferencaValores.java
+        - divisivelPor2e3.java
+        - divisivelPor2ou3.java
+        - maiorValor.java
+        - mediaPonderada.java
+        - menorValor.java
+        - reajusteSalarial.java
+        - verificaFaixa.java
+        - verificaTriângulo.java
     /modulo2
         - atividade1.java
         - atividade2.java
-/projetos
-    - projeto_final
+    - Caderno de Exercícios - Módulo 1 - JavaII.pdf
+    - Caderno de Exercícios - Módulo 2 - JavaII.pdf
 README.md
 ```
 
