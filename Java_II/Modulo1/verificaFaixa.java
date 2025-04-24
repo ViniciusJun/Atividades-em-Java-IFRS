@@ -5,7 +5,7 @@ public class verificaFaixa {
         // Leitura do valor
         int valor = Integer.parseInt(System.console().readLine("Digite um valor inteiro: "));
         
-        // Verificação da faixa
+        // Verificacao da faixa
         if (valor >= 1 && valor <= 9) {
             System.out.println("O valor está na faixa permitida");
         } else {
