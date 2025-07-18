@@ -1,38 +1,69 @@
 package Java_III.Modulo1;
 
 public class pesquisaHabitantes {
-   public static void main(String[] args) {
-        System.out.println("Pesquisa de Habitantes");
-    
-        int opcao = 0, idade, sexo;
-        double salario;
- 
-        do {
-            System.out.println("Menu Inicial");
-            System.out.println("1. Iniciar Pesquisa");
-            System.out.println("2. Reiniciar pesquisa");
-            System.out.println("3. Finalizar Programa");
-            opcao = Integer.parseInt(System.console().readLine("Digite sua opção:"));
+    public static void main(String[] args) {
+        System.out.println("Pesquisa de Habitantes\n");
 
-            switch (opcao) {
-                case 1:
-                    salario = Double.parseDouble(System.console().readLine("Informe o seu salario: "));
-                        
-                    idade = Integer.parseInt(System.console().readLine("Informe sua Idade: "));
-                    sexo = Integer.parseInt(System.console().readLine("Informe o seso: "));
-                    break;
-                case 2:
+        int idade, quantidade = 0;
+        String sexo, escravizado = "";
+        int salarioFeminino = 0, idadeMaior = 0, idadeMenor = 0;
+        double salario, menorSalario = 0, salarioEscravo = 0, soma = 0, mediaSalarial = 0;
 
-                    break;
-            
-                default:
-                    break;
+        boolean primeiraEntrada = true;
+
+        // Primeira leitura da idade
+        idade = Integer.parseInt(System.console().readLine("Digite a idade (negativa para encerrar): "));
+
+        while (idade > 0) {
+            salario = Double.parseDouble(System.console().readLine("Informe o salário: "));
+            sexo = System.console().readLine("Informe o sexo (M ou F): ");
+
+            quantidade++; // Conta o número de participantes
+            soma += salario;
+
+            if (primeiraEntrada) {
+                idadeMaior = idade;
+                idadeMenor = idade;
+                menorSalario = salario;
+                salarioEscravo = salario;
+                escravizado = sexo.equalsIgnoreCase("M") ? "homem" : "mulher";
+                primeiraEntrada = false;
+            } else {
+                // Atualiza maior idade
+                if (idade > idadeMaior) idadeMaior = idade;
+                // Atualiza menor idade
+                if (idade < idadeMenor) idadeMenor = idade;
+                // Verifica menor salário
+                if (salario < menorSalario) {
+                    menorSalario = salario;
+                    salarioEscravo = salario;
+                    escravizado = sexo.equalsIgnoreCase("M") ? "homem" : "mulher";
+                }
             }
-          
-        } while (opcao != 3);
-        
 
+            // Contador de mulheres com salário até R$ 1500
+            if (salario <= 1500 && sexo.equalsIgnoreCase("F")) {
+                salarioFeminino++;
+            }
 
-   
+            // Nova leitura da idade para continuar ou sair do loop
+            idade = Integer.parseInt(System.console().readLine("\nDigite a idade (negativa para encerrar): "));
+        }
+
+        // Evita divisão por zero
+        if (quantidade > 0) {
+            mediaSalarial = soma / quantidade;
+
+            System.out.println("\nRESULTADO DA PESQUISA:");
+            System.out.println("Média salarial: R$ " + mediaSalarial);
+            System.out.println("Maior idade: " + idadeMaior + " anos");
+            System.out.println("Menor idade: " + idadeMenor + " anos");
+            System.out.println("Quantidade de mulheres com salário até R$ 1500: " + salarioFeminino);
+            System.out.println("Pessoa com menor salário é um(a) " + escravizado + " com salário de R$ " + salarioEscravo);
+        } else {
+            System.out.println("Nenhum dado foi informado.");
+        }
+
+        System.out.println("\nPrograma encerrado.");
     }
 }
