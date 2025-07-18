@@ -26,7 +26,7 @@ public class pesquisaHabitantes {
                 idadeMenor = idade;
                 menorSalario = salario;
                 salarioEscravo = salario;
-                escravizado = sexo.equalsIgnoreCase("M") ? "homem" : "mulher";
+                escravizado = sexo.equalsIgnoreCase("M") ? "homem" : "mulher"; /* Condicional Ternária que verifica uma String sem considerar maiuculas e minusculas, Se a condição for verdadeira (ou seja, sexo for "M" ou "m"), então o valor "homem" será atribuído à variável escravizado, senão o valor "mulher" é atribuido. */
                 primeiraEntrada = false;
             } else {
                 // Atualiza maior idade
@@ -37,7 +37,7 @@ public class pesquisaHabitantes {
                 if (salario < menorSalario) {
                     menorSalario = salario;
                     salarioEscravo = salario;
-                    escravizado = sexo.equalsIgnoreCase("M") ? "homem" : "mulher";
+                    escravizado = sexo.equalsIgnoreCase("M") ? "homem" : "mulher";//Condicional Ternária que verifica uma String sem considerar maiuculas
                 }
             }
 
