@@ -1,29 +1,35 @@
 package Java_III.Modulo1;
 
 public class bolsaDeValores {
-    public static void main{
+    public static void main(String[] args) {
+        String tipo;
+        int acima1000 = 0, abaixo200 = 0;
+        double compra, venda, lucro;
 
-        String acao, letra;
-        double precoAcao, precoVenda;
-        double lucroSuperior, lucroInferior;
-        boolean primeiraEntrada = true;
+        // Início do loop
+        do {
+            tipo = System.console().readLine("Digite o tipo da ação (ou F para finalizar): ");
+            
+            // Só processa se não for "F"
+            if (!tipo.equalsIgnoreCase("F")) {
+                compra = Double.parseDouble(System.console().readLine("Digite o preço de compra: "));
+                venda = Double.parseDouble(System.console().readLine("Digite o preço de venda: "));
 
-        System.out.println("Bolsa de Valore\n")
+                lucro = venda - compra;
 
-        letra = System.console().readline("Informe a letra da ação: ('F' para finalizar) \n")
+                if (lucro > 1000) {
+                    acima1000++;
+                } else if (lucro < 200) {
+                    abaixo200++;
+                }
+            }
 
+        } while (!tipo.equalsIgnoreCase("F"));  // Repete enquanto tipo for diferente de "F"
 
-        while (!acao.equalsIgnoreCase("f")) {/*Condicional que verifica uma String sem considerar maiuculas e minusculas, Se a condição for verdadeira (ou seja, sexo for "f" ou "F"), então será atribuído false para a condição.*/
-            precoAcao = Double.parseDouble(System.console().readLine("Informe o valor da ação: \n"));
-            precoVenda = Double.parseDouble(System.console().readLine("Informe o valor da de venda da ação: \n"));
+        System.out.println("Fim do Programa");
 
-            if (primeiraEntrada) {
-
-
-                primeiraEntrada = false;
-            } else{
-
-            } 
-        }
+        // Resultado final
+        System.out.println("\nQuantidade de ações com lucro superior a R$1000,00: " + acima1000);
+        System.out.println("Quantidade de ações com lucro inferior a R$200,00: " + abaixo200);
     }
 }

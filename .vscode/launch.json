@@ -1,0 +1,343 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AreaQuadrado",
+            "request": "launch",
+            "mainClass": "Java_I.AreaQuadrado",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "AreaTriangulo",
+            "request": "launch",
+            "mainClass": "Java_I.AreaTriangulo",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculadorHorasTrabalhadas",
+            "request": "launch",
+            "mainClass": "Java_I.CalculadorHorasTrabalhadas",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculadorNotas",
+            "request": "launch",
+            "mainClass": "Java_I.CalculadorNotas",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraDesconto10",
+            "request": "launch",
+            "mainClass": "Java_I.CalculadoraDesconto10",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraIdade",
+            "request": "launch",
+            "mainClass": "Java_I.CalculadoraIdade",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraRedeEletrica",
+            "request": "launch",
+            "mainClass": "Java_I.CalculadoraRedeEletrica",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraSalarioComissao",
+            "request": "launch",
+            "mainClass": "Java_I.CalculadoraSalarioComissao",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraSalarios",
+            "request": "launch",
+            "mainClass": "Java_I.CalculadoraSalarios",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CalculoMedidas",
+            "request": "launch",
+            "mainClass": "Java_I.CalculoMedidas",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "CelsosParaFahrenheit",
+            "request": "launch",
+            "mainClass": "Java_I.CelsosParaFahrenheit",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "DivisaoDoisNumeros",
+            "request": "launch",
+            "mainClass": "Java_I.DivisaoDoisNumeros",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "MediaTresNotas",
+            "request": "launch",
+            "mainClass": "Java_I.MediaTresNotas",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "SubtracaoDoisNumeros",
+            "request": "launch",
+            "mainClass": "Java_I.SubtracaoDoisNumeros",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "ValorCarro",
+            "request": "launch",
+            "mainClass": "Java_I.ValorCarro",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "bolsaDeValores",
+            "request": "launch",
+            "mainClass": "Java_III.Modulo1.bolsaDeValores",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "folhaDePagamento",
+            "request": "launch",
+            "mainClass": "Java_III.Modulo1.folhaDePagamento",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "pesquisaHabitantes",
+            "request": "launch",
+            "mainClass": "Java_III.Modulo1.pesquisaHabitantes",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "recrutamentoESelecao",
+            "request": "launch",
+            "mainClass": "Java_III.Modulo1.recrutamentoESelecao",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "calculoDelta",
+            "request": "launch",
+            "mainClass": "Modulo1.calculoDelta",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "diferencaValores",
+            "request": "launch",
+            "mainClass": "Modulo1.diferencaValores",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "divisivelPor2e3",
+            "request": "launch",
+            "mainClass": "Modulo1.divisivelPor2e3",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "divisivelPor2ou3",
+            "request": "launch",
+            "mainClass": "Modulo1.divisivelPor2ou3",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "maiorValor",
+            "request": "launch",
+            "mainClass": "Modulo1.maiorValor",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "mediaPonderada",
+            "request": "launch",
+            "mainClass": "Modulo1.mediaPonderada",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "menorValor",
+            "request": "launch",
+            "mainClass": "Modulo1.menorValor",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "reajusteSalarial",
+            "request": "launch",
+            "mainClass": "Modulo1.reajusteSalarial",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "verificaFaixa",
+            "request": "launch",
+            "mainClass": "Modulo1.verificaFaixa",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "verificaTriangulo",
+            "request": "launch",
+            "mainClass": "Modulo1.verificaTriangulo",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "calculosNumericos",
+            "request": "launch",
+            "mainClass": "Modulo2.calculosNumericos",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "consumoMedioCarro",
+            "request": "launch",
+            "mainClass": "Modulo2.consumoMedioCarro",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "faturamentoArmazem",
+            "request": "launch",
+            "mainClass": "Modulo2.faturamentoArmazem",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "mediasIdades",
+            "request": "launch",
+            "mainClass": "Modulo2.mediasIdades",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "quadradosDe15a200",
+            "request": "launch",
+            "mainClass": "Modulo2.quadradosDe15a200",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "quadradosNumericos",
+            "request": "launch",
+            "mainClass": "Modulo2.quadradosNumericos",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "somaDeNumeros",
+            "request": "launch",
+            "mainClass": "Modulo2.somaDeNumeros",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "opcoesdeSoma",
+            "request": "launch",
+            "mainClass": "Modulo3.opcoesdeSoma",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "os10PrimeirosFibonacci",
+            "request": "launch",
+            "mainClass": "Modulo3.os10PrimeirosFibonacci",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "verificaSenhas",
+            "request": "launch",
+            "mainClass": "Modulo3.verificaSenhas",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "vistoriaDetran",
+            "request": "launch",
+            "mainClass": "Modulo3.vistoriaDetran",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "arrendondadorDecimais",
+            "request": "launch",
+            "mainClass": "Modulo4.arrendondadorDecimais",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "binarioParaDecimal",
+            "request": "launch",
+            "mainClass": "Modulo4.binarioParaDecimal",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "decimalParaBinario0a100",
+            "request": "launch",
+            "mainClass": "Modulo4.decimalParaBinario0a100",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "equacaoSegundoGrau",
+            "request": "launch",
+            "mainClass": "Modulo4.equacaoSegundoGrau",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "operacoesDoisNumeros",
+            "request": "launch",
+            "mainClass": "Modulo4.operacoesDoisNumeros",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "raizQuadradaDe1a100",
+            "request": "launch",
+            "mainClass": "Modulo4.raizQuadradaDe1a100",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        },
+        {
+            "type": "java",
+            "name": "rolaDados",
+            "request": "launch",
+            "mainClass": "Modulo4.rolaDados",
+            "projectName": "Atividades-em-Java-IFRS_8112dded"
+        }
+    ]
+}
