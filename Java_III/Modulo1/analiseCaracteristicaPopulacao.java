@@ -14,7 +14,7 @@ public class analiseCaracteristicaPopulacao {
             //Variáveis de coleta
             int  idade;
             double altura, peso;
-            String sexo = "", corCabelo, corOlhos;
+            String sexo = " ", corCabelo, corOlhos;
 
             //Coleta da idade
             System.out.println("Insira a idade: ");
